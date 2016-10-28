@@ -1,16 +1,16 @@
 body {
-    margin: auto;
 
+    margin-top: 20px;
 }
 
-.content {
+.container {
     margin-top: 60px;
 }
 .title {
+
     background-color: aquamarine;
     color: white;
-    height: 90px;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 60%;
     font-size: 50px;
     text-align: center;
@@ -20,11 +20,13 @@ body {
 
 .rows {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 .info {
-    margin-left: 10px;
+
     width: 50%;
+    height: 10%;
+    overflow: auto;
     margin: auto;
     font-size: 21px;
     font-family: "Apple Color Emoji";
@@ -33,6 +35,8 @@ body {
 
 .img {
 
-    width: 30%;
+
+    width: 9%;
+    margin-left: 50px;
     max-height: 400px;
 }
