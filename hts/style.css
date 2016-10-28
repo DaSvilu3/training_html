@@ -1,0 +1,38 @@
+body {
+    margin: auto;
+
+}
+
+.content {
+    margin-top: 60px;
+}
+.title {
+    background-color: aquamarine;
+    color: white;
+    height: 90px;
+    margin: 0 auto;
+    width: 60%;
+    font-size: 50px;
+    text-align: center;
+
+
+}
+
+.rows {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.info {
+    margin-left: 10px;
+    width: 50%;
+    margin: auto;
+    font-size: 21px;
+    font-family: "Apple Color Emoji";
+
+}
+
+.img {
+
+    width: 30%;
+    max-height: 400px;
+}
